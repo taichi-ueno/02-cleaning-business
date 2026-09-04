@@ -170,6 +170,54 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.contact-form-section {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+}
+
+.contact-form-section h2 {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.contact-form-section form {
+  max-width: 700px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.contact-form-section button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-form-section button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 60px 0;
