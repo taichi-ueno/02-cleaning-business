@@ -273,3 +273,10 @@ footer .container {
   text-align: center;
 }
 }
+
+.privacy-note {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
