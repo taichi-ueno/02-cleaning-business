@@ -36,6 +36,25 @@ body {
   margin-bottom: 32px;
 }
 
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-content {
+  max-width: 620px;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 .cta-button {
   display: inline-block;
   background-color: #0077cc;
@@ -272,6 +291,15 @@ footer .container {
   gap: 12px;
   text-align: center;
 }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero-image img {
+    height: 280px;
+  }
 }
 
 .privacy-note {
