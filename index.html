@@ -154,7 +154,28 @@
         hello@example.com
       </a>
     </p>
+    
+    <a id="portfolio-link" href="https://taichiueno.com.au/#work">
+      Back to Portfolio
+     </a>
+    
   </div>
 </footer>   
+
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const language = params.get("lang");
+  const portfolioLink = document.getElementById("portfolio-link");
+
+  if (language === "ja") {
+    portfolioLink.href = "https://taichiueno.com.au/ja/#work";
+    portfolioLink.textContent = "制作例に戻る";
+  } else {
+    portfolioLink.href = "https://taichiueno.com.au/#work";
+    portfolioLink.textContent = "Back to Portfolio";
+  }
+</script>
+
   </body>
 </html>
