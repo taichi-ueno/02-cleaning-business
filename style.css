@@ -348,6 +348,11 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .services h2,
+  .why-us h2 {
+    font-size: 28px;
+  }
+
   .why-us-grid {
     flex-direction: column;
   }
@@ -360,5 +365,18 @@ footer a:hover {
     flex-direction: column;
     gap: 12px;
     text-align: center;
+
+  }.contact-cta h2 {
+     font-size: 30px;
+  }
+
+   .contact-form-section h2 {
+    font-size: 28px;
+  }
+
+  footer .container {
+   flex-direction: column;
+   gap: 12px;
+   text-align: center;
   }
 }
